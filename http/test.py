@@ -1,7 +1,7 @@
 from socket import *
 
 s = socket()
-s.bind(('0.0.0.0',8888))
+s.bind(('0.0.0.0',8890))
 s.listen()
 c,addr=s.accept()
 data = c.recv(1024)
